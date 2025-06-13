@@ -21,7 +21,7 @@ a = a - b # a = 30 - 10 = 20
 print(f"After swap:\na:{a}\tb:{b}")
 
 # Program 3
-# Swap two numbers - Using * and floor division (//)
+# Swap two numbers - Using * and floor division (//) - Except 0
 
 a = int(input("A: ")) # a = 10
 b = int(input("B: ")) # b = 20
@@ -29,4 +29,15 @@ print(f"Before swap:\na:{a}\tb:{b}")
 a = a + b 
 b = a // b 
 a = a // b 
+print(f"After swap:\na:{a}\tb:{b}")
+
+# Program 4
+# Swap two numbers - Using XOR (Only for integers)
+
+a = int(input("A: ")) # a = 3
+b = int(input("B: ")) # b = 4
+print(f"Before swap:\na:{a}\tb:{b}")
+a = a ^ b # 3-> 0011 4-> 0100 a = 3^4 = 7
+b = a ^ b # 7-> 0111 4-> 0100 b = 7^4 = 3
+a = a ^ b # 3-> 0011 7-> 0111 a = 3^7 = 4
 print(f"After swap:\na:{a}\tb:{b}")
