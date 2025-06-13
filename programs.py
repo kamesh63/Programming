@@ -41,3 +41,12 @@ a = a ^ b # 3-> 0011 4-> 0100 a = 3^4 = 7
 b = a ^ b # 7-> 0111 4-> 0100 b = 7^4 = 3
 a = a ^ b # 3-> 0011 7-> 0111 a = 3^7 = 4
 print(f"After swap:\na:{a}\tb:{b}")
+
+# Program 5
+# Swap two numbers - packing and unpacking
+
+a = int(input("A: ")) # a = 3
+b = int(input("B: ")) # b = 4
+print(f"Before swap:\na:{a}\tb:{b}")
+a, b = b, a
+print(f"After swap:\na:{a}\tb:{b}")
