@@ -78,3 +78,15 @@ a = a - (b+c) # 60 - (30) = 30
 # c = a - b - c
 # a = a - b - c
 print(f"a: {a}\tb:{b}\tc: {c}")
+
+# Program 8
+# Swap three numbers - Using * and /
+
+a = int(input("A: ")) # 10
+b = int(input("B: ")) # 20
+c = int(input("C: ")) # 30
+a = a * b * c
+b = a // (b * c)
+c = a // (b * c)
+a = a // (b * c)
+print(f"a: {a}\tb:{b}\tc: {c}")
