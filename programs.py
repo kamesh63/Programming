@@ -1,3 +1,4 @@
+# 13 May 2025
 # Program 1
 # Swap two numbers
 
@@ -51,6 +52,7 @@ print(f"Before swap:\na:{a}\tb:{b}")
 a, b = b, a
 print(f"After swap:\na:{a}\tb:{b}")
 
+# 14 May 2025
 # Program 6
 # Swap three numbers - Using temp variable
 
