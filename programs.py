@@ -50,3 +50,15 @@ b = int(input("B: ")) # b = 4
 print(f"Before swap:\na:{a}\tb:{b}")
 a, b = b, a
 print(f"After swap:\na:{a}\tb:{b}")
+
+# Program 6
+# Swap three numbers - Using temp variable
+
+a = int(input("A: ")) 
+b = int(input("B: ")) 
+c = int(input("C: "))
+d = a
+a = c
+c = b
+b = d
+print(f"a: {a}\tb:{b}\tc: {c}")
