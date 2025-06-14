@@ -104,3 +104,12 @@ b = a ^ b ^ c
 c = a ^ b ^ c
 a = a ^ b ^ c
 print(f"a: {a}\tb:{b}\tc: {c}")
+
+# Program 10
+# Swap three numbers - Using unpacking
+
+a = int(input("A: ")) # 10
+b = int(input("B: ")) # 20
+c = int(input("C: ")) # 30
+a,b,c = c,a,b
+print(f"a: {a}\tb:{b}\tc: {c}")
