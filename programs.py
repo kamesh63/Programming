@@ -113,3 +113,11 @@ b = int(input("B: ")) # 20
 c = int(input("C: ")) # 30
 a,b,c = c,a,b
 print(f"a: {a}\tb:{b}\tc: {c}")
+
+# Program 11
+# Even or odd
+# Logic 1 - n%2==0 "Even"
+# Logic 2 - (n//2)==n "Even", (n//2)==n-1 "Odd"
+# Logic 3 - n&1==0 "Even", n&1=1 "Odd"
+# Logic 4 - (n//2)*2==n "Even", (n//2)*2==n-1 "Odd",
+# Logic 5 - (n>>1)<<1==n "Even", (n>>1)<<1 == n-1 "Odd"
